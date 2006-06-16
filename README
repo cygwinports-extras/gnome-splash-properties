@@ -1,0 +1,56 @@
+gnome-splash-properties
+------------------------------------------
+GNOME Splash Screen properties dialog
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  ruby-1.8.4-1
+  ruby-gconf2-0.14.1-2
+  ruby-gnome2-0.14.1-2
+  ruby-gnomevfs2-0.14.1-2
+  ruby-gtk2-0.14.1-3
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.6-1
+  ruby-1.8.4-1
+
+Canonical homepage:
+  http://tchak13.free.fr/gnome-splash-properties/
+
+Canonical download:
+  http://tchak13.free.fr/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-splash-properties-0.3.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-splash-properties-0.3.0-X.cygport all
+
+This will create:
+  /usr/src/gnome-splash-properties-0.3.0-X-src.tar.bz2
+  /usr/src/gnome-splash-properties-0.3.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gnome-splash-properties
+  /usr/share/applications/gnome-splash-properties.desktop
+  /usr/share/doc/Cygwin/gnome-splash-properties-0.3.0.README
+  /usr/share/doc/gnome-splash-properties-0.3.0/COPYING
+  /usr/share/pixmaps/gnome-splash-properties.png
+
+------------------
+
+Port Notes:
+
+----- version 0.3.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,5 @@
+inherit ruby
+
+DESCRIPTION="GNOME Splash Screen properties dialog"
+HOMEPAGE="http://tchak13.free.fr/${PN}/"
+SRC_URI="http://tchak13.free.fr/files/${P}.tar.gz"
