@@ -1,4 +1,4 @@
 category: Gnome
-requires: cygwin ruby ruby-gconf2 ruby-gnome2 ruby-gnomevfs2 ruby-gtk2
+requires: ruby ruby-gconf2 ruby-gnome2 ruby-gnomevfs2 ruby-gtk2
 sdesc: "GNOME Splash Screen properties dialog"
 ldesc: "GNOME Splash Screen properties dialog"
